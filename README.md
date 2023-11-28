@@ -6,9 +6,7 @@
    ## Diferenças entre REST e RESTFul
   
  REST é um conjunto de princípios e restrições de arquitetura de softwares. Uma API RESTful é aquela que está em conformidade com os critérios estabelecidos pela REST.
- O termo "RESTful" é frequentemente utilizado para descrever APIs que aderem aos princípios e práticas da arquitetura REST. As principais diferenças entre REST e RESTFul são mais relacionadas à conformidade e aderência rigorosa aos princípios REST. Uma API RESTful segue os princípios de Stateless (sem estado), Cacheable (cachável), Uniform Interface (interface uniforme) e Client-Server (cliente-servidor), entre outros. Assim, a
-   
- Para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critérios. Sendo eles:
+ O termo "RESTful" é frequentemente utilizado para descrever APIs que aderem aos princípios e práticas da arquitetura REST. As principais diferenças entre REST e RESTFul são mais relacionadas à conformidade e aderência rigorosa aos princípios REST. Uma API RESTful segue os princípios de Stateless (sem estado), Cacheable (cachável), Uniform Interface (interface uniforme) e Client-Server (cliente-servidor), entre outros. Assim, para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critérios. Sendo eles:
 
 + Ter uma arquitetura cliente/servidor formada por clientes, servidores e recursos, com solicitações gerenciadas por HTTP.
 + Estabelecer uma comunicação stateless entre cliente e servidor. Isso significa que nenhuma informação do cliente é armazenada entre solicitações **GET** e toda as solicitações são separadas e desconectadas.
