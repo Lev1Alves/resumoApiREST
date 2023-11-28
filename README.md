@@ -29,7 +29,8 @@ Para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critéri
 Esses verbos permitem que as operações sejam realizadas de maneira uniforme e previsível, contribuindo para a simplicidade e eficácia da arquitetura REST.
 
    ## HTTP Status Code
-     O Status code é é um número inteiro de 3 dígitos onde o primeiro dígito do Status-Code define a classe de resposta e os dois últimos dígitos não têm nenhuma função de categorização. Existem 5 valores para o primeiro dígito:
+        O Status code é um número inteiro de 3 digítos onde o primeiro digíto define a classe da resposta e os dois últimos digítos não tem nenhuma função de categorização. Existem 5 valores para o primeiro digito. Sendo eles:
+  
     
 | S.N. | Code and Description                                     |
 |------|----------------------------------------------------------|
