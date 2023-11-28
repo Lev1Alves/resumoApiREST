@@ -13,7 +13,7 @@ Para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critéri
 
     O termo "RESTful" é frequentemente utilizado para descrever APIs que aderem aos princípios e práticas da arquitetura REST. As principais diferenças entre REST e RESTFul são mais relacionadas à conformidade e aderência rigorosa aos princípios REST. Uma API RESTful segue os princípios de Stateless (sem estado), Cacheable (cachável), Uniform Interface (interface uniforme) e Client-Server (cliente-servidor), entre outros.
 
-     ##HTTP verbs
+     ## HTTP verbs
 
      Os verbos HTTP desempenham um papel fundamental na comunicação entre o cliente e o servidor em uma arquitetura RESTful. Alguns dos principais verbos HTTP utilizados são:
 
