@@ -3,7 +3,7 @@
 
    A arquitetura de APIs (Interface de Programação de Aplicações) desempenha um papel crucial na comunicação entre sistemas distribuídos. A API Rest (Representational State Transfer) criada pelo cientista da computação Roy Fielding é um estilo arquitetônico que utiliza uma abordagem leve e baseada em padrões para facilitar a comunicação entre diferentes sistemas. A principal ideia por trás da API Rest é tratar os recursos da aplicação como objetos acessíveis por URLs. Isso proporciona uma abordagem flexível e escalável para integração de sistemas.Quando um cliente faz uma solicitação usando uma API RESTful, essa API transfere uma representação do estado do recurso ao solicitante ou endpoint. Essa informação (ou representação) é entregue via HTTP utilizando um dos vários formatos possíveis: Javascript Object Notation (JSON), HTML, XLT, Python, PHP ou texto sem formatação. O formato JSON é a linguagem de programação mais usada porque, apesar de seu nome, é independente de qualquer outra linguagem e pode ser lido por máquinas e humanos. 
 
-    ## Diferenças entre REST e RESTFul
+   ## Diferenças entre REST e RESTFul
   
  REST é um conjunto de princípios e restrições de arquitetura de softwares. Uma API RESTful é aquela que está em conformidade com os critérios estabelecidos pela REST.
  O termo "RESTful" é frequentemente utilizado para descrever APIs que aderem aos princípios e práticas da arquitetura REST. As principais diferenças entre REST e RESTFul são mais relacionadas à conformidade e aderência rigorosa aos princípios REST. Uma API RESTful segue os princípios de Stateless (sem estado), Cacheable (cachável), Uniform Interface (interface uniforme) e Client-Server (cliente-servidor), entre outros. Assim, a
