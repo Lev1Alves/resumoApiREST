@@ -15,9 +15,9 @@ Para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critéri
 
     ## HTTP verbs
 
-     Os verbos HTTP desempenham um papel fundamental na comunicação entre o cliente e o servidor em uma arquitetura RESTful. Alguns dos principais verbos HTTP utilizados são:
+     ## Os verbos HTTP desempenham um papel fundamental na comunicação entre o cliente e o servidor em uma arquitetura RESTful. Alguns dos principais verbos HTTP utilizados são:
 
-*GET*: Solicita a representação de um recurso.
+ *GET*: Solicita a representação de um recurso.
 *POST*: Envia dados para serem processados a um recurso especificado.
 *PUT*: Atualiza um recurso existente ou cria um novo recurso se não existir.
 *DELETE*: Remove um recurso específico.
@@ -29,7 +29,7 @@ Para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critéri
 Esses verbos permitem que as operações sejam realizadas de maneira uniforme e previsível, contribuindo para a simplicidade e eficácia da arquitetura REST.
 
     ## HTTP Status Code
-    O Status code é é um número inteiro de 3 dígitos onde o primeiro dígito do Status-Code define a classe de resposta e os dois últimos dígitos não têm nenhuma função de categorização. Existem 5 valores para o primeiro dígito:
+   ## O Status code é é um número inteiro de 3 dígitos onde o primeiro dígito do Status-Code define a classe de resposta e os dois últimos dígitos não têm nenhuma função de categorização. Existem 5 valores para o primeiro dígito:
 | S.N. | Code and Description                                     |
 |------|----------------------------------------------------------|
 | 1    | **1xx: Informational**                                   |
@@ -43,7 +43,7 @@ Esses verbos permitem que as operações sejam realizadas de maneira uniforme e 
 | 5    | **5xx: Server Error**                                    |
 |      | Isso significa que o servidor não atendeu a uma solicitação aparentemente válida. |
 
-    Os códigos de status HTTP indicam o resultado de uma operação solicitada. Alguns códigos comuns incluem:
+   ## Os códigos de status HTTP indicam o resultado de uma operação solicitada. Alguns códigos comuns incluem:
 
 *200 OK*: Indica que a requisição foi bem-sucedida.
 *201 Created*: Indica que a requisição foi bem-sucedida e resultou na criação de um novo recurso.
