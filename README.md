@@ -6,8 +6,8 @@ Para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critéri
 
 + Ter uma arquitetura cliente/servidor formada por clientes, servidores e recursos, com solicitações gerenciadas por HTTP.
 + Estabelecer uma comunicação stateless entre cliente e servidor. Isso significa que nenhuma informação do cliente é armazenada entre solicitações **GET** e toda as solicitações são separadas e desconectadas.
-+  Armazenar dados em cache para otimizar as interações entre cliente e servidor.
-+  Ter um sistema em camadas que organiza os tipos de servidores envolvidos na recuperação das informações solicitadas em hierarquias que o cliente não pode ver.
++ Armazenar dados em cache para otimizar as interações entre cliente e servidor.
++ Ter um sistema em camadas que organiza os tipos de servidores envolvidos na recuperação das informações solicitadas em hierarquias que o cliente não pode ver.
 
     ## Diferenças entre REST e RESTFul
 
@@ -17,14 +17,14 @@ Para uma API ser considerada do tipo RESTFul, ela precisa seguir alguns critéri
 
      Os verbos HTTP desempenham um papel fundamental na comunicação entre o cliente e o servidor em uma arquitetura RESTful. Alguns dos principais verbos HTTP utilizados são:
 
-+ **GET**: Solicita a representação de um recurso.
-+ **POST**: Envia dados para serem processados a um recurso especificado.
-+ **PUT**: Atualiza um recurso existente ou cria um novo recurso se não existir.
-+ **DELETE**: Remove um recurso específico.
-+ **CONNECT**: Estabelece um túnel para o servidor identificado pelo recurso de destino.
-+ **OPTIONS**: É usado para descrever as opções de comunicação com o recurso de destino.
-+ **TRACE**: Executa um teste de chamada loop-back junto com o caminho para o recurso de destino.
-+ **Patch**: É utilizado para aplicar modificações parciais em um recurso.
+- **GET**: Solicita a representação de um recurso.
+- **POST**: Envia dados para serem processados a um recurso especificado.
+- **PUT**: Atualiza um recurso existente ou cria um novo recurso se não existir.
+- **DELETE**: Remove um recurso específico.
+- **CONNECT**: Estabelece um túnel para o servidor identificado pelo recurso de destino.
+- **OPTIONS**: É usado para descrever as opções de comunicação com o recurso de destino.
+- **TRACE**: Executa um teste de chamada loop-back junto com o caminho para o recurso de destino.
+- **Patch**: É utilizado para aplicar modificações parciais em um recurso.
 
 Esses verbos permitem que as operações sejam realizadas de maneira uniforme e previsível, contribuindo para a simplicidade e eficácia da arquitetura REST.
 
@@ -45,10 +45,10 @@ Esses verbos permitem que as operações sejam realizadas de maneira uniforme e 
 
     Os códigos de status HTTP indicam o resultado de uma operação solicitada. Alguns códigos comuns incluem:
 
-+ **200 OK**: Indica que a requisição foi bem-sucedida.
-+ **201 Created**: Indica que a requisição foi bem-sucedida e resultou na criação de um novo recurso.
-+ **400 Bad Request**: Indica que a requisição foi malformada ou não pôde ser processada pelo servidor.
-+ **404 Not Found**: Indica que o recurso solicitado não foi encontrado no servidor.
-+ **500 Internal Server Error**: Indica que ocorreu um erro no servidor durante o processamento da requisição.
+* **200 OK**: Indica que a requisição foi bem-sucedida.
+* **201 Created**: Indica que a requisição foi bem-sucedida e resultou na criação de um novo recurso.
+* **400 Bad Request**: Indica que a requisição foi malformada ou não pôde ser processada pelo servidor.
+* **404 Not Found**: Indica que o recurso solicitado não foi encontrado no servidor.
+* **500 Internal Server Error**: Indica que ocorreu um erro no servidor durante o processamento da requisição.
  
     Autor do resumo: Levi Souza Alves - 01529075
